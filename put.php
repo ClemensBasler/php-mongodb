@@ -9,8 +9,7 @@ $data = [
     "wind_speed" => 5,
 ];
 
-
-$collection = $client->weatherdata->seconds_10;
+$collection = $client->weatherdata2->seconds_10;
 
 $result = $collection->insertOne($data);
 
